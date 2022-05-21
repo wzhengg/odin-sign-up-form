@@ -38,7 +38,7 @@ body {
     background-color: rgba(27, 29, 32, .4);
 }
 
-div > img {
+img {
     height: 160px;
     width: auto;
 }
@@ -105,6 +105,10 @@ input:focus {
     box-shadow: 5px 5px 5px #d1d1d1;
 }
 
+.error:invalid {
+    border: 1px #b91c1c solid;
+}
+
 label {
     color: #1f2947;
     font-size: .85rem;
@@ -113,7 +117,7 @@ label {
 }
 
 .submission-container {
-    padding: 40px 200px 0 50px;
+    padding: 40px 200px 40px 50px;
 }
 
 button {
@@ -132,7 +136,7 @@ button {
     font-size: 1.2rem;
 }
 
-.submission-container > p > a {
+.submission-container a {
     text-decoration: none;
     color: #4e7461;
     font-weight: 600;
